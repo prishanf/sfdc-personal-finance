@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holding_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is used to link the Holding Account</description>
+    <externalId>false</externalId>
+    <label>Holding Account</label>
+    <referenceTo>Account__c</referenceTo>
+    <relationshipLabel>Holdings (Holding Account)</relationshipLabel>
+    <relationshipName>Holdings1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holding</fullName>
+    <active>true</active>
+    <description>Holdings ( Stocks Mutual Funds, Index Funds,ETFs)</description>
+    <label>Holding</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Bond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Checking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Index Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Line of Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mutual Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RRSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSFA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

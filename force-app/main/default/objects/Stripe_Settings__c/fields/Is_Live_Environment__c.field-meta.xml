@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Live_Environment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this to use the LIVE key in all API operations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this to use the LIVE key in all API operations</inlineHelpText>
+    <label>Is Live Environment</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
