@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mortgage</fullName>
+    <active>true</active>
+    <description>Mortgage Accounts</description>
+    <label>Mortgage</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Checking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Line of Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RRSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSFA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

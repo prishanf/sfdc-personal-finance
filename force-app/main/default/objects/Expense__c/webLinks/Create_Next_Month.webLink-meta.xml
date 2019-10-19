@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Next_Month</fullName>
+    <availability>online</availability>
+    <description>Auto Create next Month</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Create Next Month</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/ExpenseNextMonthButtonPage?id={!Expense__c.Id}&amp;action=M</url>
+</WebLink>

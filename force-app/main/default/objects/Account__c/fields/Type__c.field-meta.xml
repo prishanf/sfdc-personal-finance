@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Checking</fullName>
+                <default>false</default>
+                <label>Checking</label>
+            </value>
+            <value>
+                <fullName>Saving</fullName>
+                <default>false</default>
+                <label>Saving</label>
+            </value>
+            <value>
+                <fullName>Line of Credit</fullName>
+                <default>false</default>
+                <label>Line of Credit</label>
+            </value>
+            <value>
+                <fullName>Mortgage</fullName>
+                <default>false</default>
+                <label>Mortgage</label>
+            </value>
+            <value>
+                <fullName>Credit Card</fullName>
+                <default>false</default>
+                <label>Credit Card</label>
+            </value>
+            <value>
+                <fullName>RRSP</fullName>
+                <default>false</default>
+                <label>RRSP</label>
+            </value>
+            <value>
+                <fullName>TSFA</fullName>
+                <default>false</default>
+                <label>TSFA</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Income</fullName>
+                <default>false</default>
+                <label>Income</label>
+            </value>
+            <value>
+                <fullName>Payee</fullName>
+                <default>false</default>
+                <label>Payee</label>
+            </value>
+            <value>
+                <fullName>Rental Income</fullName>
+                <default>false</default>
+                <label>Rental Income</label>
+            </value>
+            <value>
+                <fullName>Stock</fullName>
+                <default>false</default>
+                <label>Stock</label>
+            </value>
+            <value>
+                <fullName>Mutual Fund</fullName>
+                <default>false</default>
+                <label>Mutual Fund</label>
+            </value>
+            <value>
+                <fullName>Index Fund</fullName>
+                <default>false</default>
+                <label>Index Fund</label>
+            </value>
+            <value>
+                <fullName>Bond</fullName>
+                <default>false</default>
+                <label>Bond</label>
+            </value>
+            <value>
+                <fullName>ETF</fullName>
+                <default>false</default>
+                <label>ETF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

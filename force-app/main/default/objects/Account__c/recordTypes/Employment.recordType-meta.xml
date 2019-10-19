@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employment</fullName>
+    <active>true</active>
+    <description>Employment Account</description>
+    <label>Employment</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Income</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paycheck</fullName>
+                <default>false</default>
+                <label>Paycheck</label>
+            </value>
+            <value>
+                <fullName>Rental Income</fullName>
+                <default>false</default>
+                <label>Rental Income</label>
+            </value>
+            <value>
+                <fullName>Devident</fullName>
+                <default>false</default>
+                <label>Devident</label>
+            </value>
+            <value>
+                <fullName>Capital Gain</fullName>
+                <default>false</default>
+                <label>Capital Gain</label>
+            </value>
+            <value>
+                <fullName>Capital Lost</fullName>
+                <default>false</default>
+                <label>Capital Lost</label>
+            </value>
+            <value>
+                <fullName>Intrest</fullName>
+                <default>false</default>
+                <label>Intrest</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
