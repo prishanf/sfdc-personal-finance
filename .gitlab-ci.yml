@@ -44,8 +44,8 @@ code-testing:
     - sfdx force:org:display --targetusername $SCRATCH_ORG_ALIAS
     # Push source to scratch org (This is with source code, all files, etc)
     - sfdx force:source:push --targetusername $SCRATCH_ORG_ALIAS
-    # Assign PersonalFinacne permission set to scratch org default user
-    - sfdx force:user:permset:assign --targetusername $SCRATCH_ORG_ALIAS --permsetname PersonalFinacne
+    # Assign PersonalFinance permission set to scratch org default user
+    - sfdx force:user:permset:assign --targetusername $SCRATCH_ORG_ALIAS --permsetname PersonalFinance
     # Add sample data into app
     - sfdx force:data:tree:import --plan data/sample-data-plan.json
     # Unit Testing
@@ -77,8 +77,8 @@ integration-testing:
     ## Install package in DevHub org (this is a compiled library of the app)
     - sfdx force:package:list
     - sfdx force:package:install --package $PACKAGE_VERSION_ID --wait 10 --publishwait 10 --targetusername $SCRATCH_ORG_ALIAS --noprompt
-    ## Assign PersonalFinacne permission set to scratch org default user
-    - sfdx force:user:permset:assign --targetusername $SCRATCH_ORG_ALIAS --permsetname PersonalFinacne
+    ## Assign PersonalFinance permission set to scratch org default user
+    - sfdx force:user:permset:assign --targetusername $SCRATCH_ORG_ALIAS --permsetname PersonalFinance
     ## Add sample data into app
     - sfdx force:data:tree:import --plan data/sample-data-plan.json --targetusername $SCRATCH_ORG_ALIAS
     ## Run unit tests in scratch org
