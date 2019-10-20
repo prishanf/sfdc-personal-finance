@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Personal Finance App on Classic</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Personal Finance</label>
+    <logo>Public_Folder/FinanceAppLogo_jpeg.jpeg</logo>
+    <tabs>Account__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Category__c</tabs>
+    <tabs>Income__c</tabs>
+</CustomApplication>

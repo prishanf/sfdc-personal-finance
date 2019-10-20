@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#097E15</headerColor>
+        <logo>FinanceAppLogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Personal Finance App in Lightning</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Personal Finance</label>
+    <navType>Standard</navType>
+    <tabs>Account__c</tabs>
+    <tabs>Category__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Income__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Personal_Finance_UtilityBar</utilityBar>
+</CustomApplication>
