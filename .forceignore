@@ -3,10 +3,18 @@
 #
 
 package.xml
-
+AppSwitcher.appMenu
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
 
 # LWC Jest
 **/__tests__/**
+
+sfdx force:auth:jwt:grant --clientid 3MVG9_XwsqeYoueI08d7G22hybGjyh4Wllcgg9A4eKiFtD4nJvXPsRQGuKh59Rr9YpuKlt3Y5CIBXafIuNiDf --jwtkeyfile ./JWT/server.key --username prishanf@cunning-otter-fbj25p.com --setdefaultdevhubusername
+export SF_CONSUMER_KEY=3MVG9_XwsqeYoueI08d7G22hybGjyh4Wllcgg9A4eKiFtD4nJvXPsRQGuKh59Rr9YpuKlt3Y5CIBXafIuNiDf
+export SF_USERNAME=prishanf@cunning-otter-fbj25p.com
+export SCRATCH_ORG_ALIAS="DreamHouse_Dev_Scratch"
+export PACKAGE_NAME="DreamHouse"
+
+sfdx force:auth:jwt:grant --clientid $SF_CONSUMER_KEY --jwtkeyfile JWT/server.key --username $SF_USERNAME --setdefaultdevhubusername --setalias HubOrg
