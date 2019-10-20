@@ -25,6 +25,7 @@ before_script:
   # Output CLI version and plug-in information
   - sfdx --version
   - sfdx plugins --core
+  - sfdx plugins:install sfdx-wry-plugin
 stages:
   - code-testing
   - integration-testing
@@ -46,8 +47,10 @@ code-testing:
     - sfdx force:source:push --targetusername $SCRATCH_ORG_ALIAS
     # Assign PersonalFinance permission set to scratch org default user
     - sfdx force:user:permset:assign --targetusername $SCRATCH_ORG_ALIAS --permsetname PersonalFinance
+    # Replace RecordTypeId with Target org Ids
+    - sfdx wry:file:replace --targetusername $SCRATCH_ORG_ALIAS --inputdir data --outputdir data.replaced
     # Add sample data into app
-    - sfdx force:data:tree:import --plan data/sample-data-plan.json
+    - sfdx force:data:tree:import --plan data.replaced/sample-data-plan.json --targetusername $SCRATCH_ORG_ALIAS
     # Unit Testing
     - sfdx force:apex:test:run --targetusername $SCRATCH_ORG_ALIAS --wait 10 --resultformat human --codecoverage --testlevel $TESTLEVEL
     # Delete Scratch Org
@@ -61,6 +64,7 @@ integration-testing:
       - PACKAGE_VERSION_ID.TXT
       - SCRATCH_ORG_USERNAME.TXT
   stage: integration-testing
+  when: manual
   script:
     # Authenticate to the Dev Hub using the server key
     - sfdx force:auth:jwt:grant --clientid $SF_CONSUMER_KEY --jwtkeyfile assets/server.key --username $SF_USERNAME --setdefaultdevhubusername --setalias HubOrg
@@ -79,8 +83,10 @@ integration-testing:
     - sfdx force:package:install --package $PACKAGE_VERSION_ID --wait 10 --publishwait 10 --targetusername $SCRATCH_ORG_ALIAS --noprompt
     ## Assign PersonalFinance permission set to scratch org default user
     - sfdx force:user:permset:assign --targetusername $SCRATCH_ORG_ALIAS --permsetname PersonalFinance
+    # Replace RecordTypeId with Target org Ids
+    - sfdx wry:file:replace --targetusername $SCRATCH_ORG_ALIAS --inputdir data --outputdir data.replaced
     ## Add sample data into app
-    - sfdx force:data:tree:import --plan data/sample-data-plan.json --targetusername $SCRATCH_ORG_ALIAS
+    - sfdx force:data:tree:import --plan data.replaced/sample-data-plan.json --targetusername $SCRATCH_ORG_ALIAS
     ## Run unit tests in scratch org
     - sfdx force:apex:test:run --targetusername $SCRATCH_ORG_ALIAS --wait 10 --resultformat human --codecoverage --testlevel $TESTLEVEL
     ## Get the username for the scratch org

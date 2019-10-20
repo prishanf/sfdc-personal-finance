@@ -1,144 +1,144 @@
 {
-    "records": [
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef1"
-            },
-            "Name": "MONGOLIE GRILL",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+  "records": [
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef1"
+      },
+      "Name": "MONGOLIE GRILL",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef2"
-            },
-            "Name": "MBTI RESTURANT",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef2"
+      },
+      "Name": "MBTI RESTURANT",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef3"
-            },
-            "Name": "RONA HOME CENTRE",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef3"
+      },
+      "Name": "RONA HOME CENTRE",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef4"
-            },
-            "Name": "SUNWING VACATIONS",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef4"
+      },
+      "Name": "SUNWING VACATIONS",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef5"
-            },
-            "Name": "HOTEL ALMA",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef5"
+      },
+      "Name": "HOTEL ALMA",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef6"
-            },
-            "Name": "CALGARY ZOO",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef6"
+      },
+      "Name": "CALGARY ZOO",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef7"
-            },
-            "Name": "KRYTERION WEBASSESSOR",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef7"
+      },
+      "Name": "KRYTERION WEBASSESSOR",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef8"
-            },
-            "Name": "MISSION TOWN PANTRY",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef8"
+      },
+      "Name": "MISSION TOWN PANTRY",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef9"
-            },
-            "Name": "ACURA OF LANGLEY",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdUQAU"
-                },
-                "Name": "Payee"
-            }
+        "DeveloperName": "Banking"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef9"
+      },
+      "Name": "ACURA OF LANGLEY",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdUQAU"
         },
-        {
-            "attributes": {
-                "type": "Account__c",
-                "referenceId": "Account__cRef10"
-            },
-            "Name": "THRIFTY FOODS",
-            "RecordType": {
-                "attributes": {
-                    "type": "RecordType",
-                    "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
-                },
-                "Name": "Banking"
-            }
-        }
-    ]
+        "DeveloperName": "Payee"
+      }
+    },
+    {
+      "attributes": {
+        "type": "Account__c",
+        "referenceId": "Account__cRef10"
+      },
+      "Name": "THRIFTY FOODS",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v47.0/sobjects/RecordType/0122M0000013JdMQAU"
+        },
+        "DeveloperName": "Banking"
+      }
+    }
+  ]
 }
