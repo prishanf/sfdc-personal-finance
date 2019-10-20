@@ -37,6 +37,8 @@ code-testing:
   script:
     # Authenticate to the Dev Hub using the server key
     - sfdx force:auth:jwt:grant --clientid $SF_CONSUMER_KEY --jwtkeyfile assets/server.key --username $SF_USERNAME --setdefaultdevhubusername --setalias HubOrg
+    ## List current orgs
+    - sfdx force:org:list
     # Create scratch org
     - sfdx force:org:create --targetdevhubusername HubOrg --setdefaultusername --definitionfile config/project-scratch-def.json --setalias $SCRATCH_ORG_ALIAS --wait 10 --durationdays 7
     - sfdx force:org:display --targetusername $SCRATCH_ORG_ALIAS
@@ -62,6 +64,8 @@ integration-testing:
   script:
     # Authenticate to the Dev Hub using the server key
     - sfdx force:auth:jwt:grant --clientid $SF_CONSUMER_KEY --jwtkeyfile assets/server.key --username $SF_USERNAME --setdefaultdevhubusername --setalias HubOrg
+    ## List current orgs
+    - sfdx force:org:list
     ## Create scratch org
     - sfdx force:org:create --targetdevhubusername HubOrg --setdefaultusername --definitionfile config/project-scratch-def.json --setalias $SCRATCH_ORG_ALIAS --wait 10 --durationdays 7
     - sfdx force:org:display --targetusername $SCRATCH_ORG_ALIAS
