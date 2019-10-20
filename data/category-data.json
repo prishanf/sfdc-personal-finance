@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef1"
+      },
+      "Name": "School Expense"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef2"
+      },
+      "Name": "Rental Income"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef3"
+      },
+      "Name": "Paycheck"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef4"
+      },
+      "Name": "Investment Income"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef5"
+      },
+      "Name": "Utility"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef6"
+      },
+      "Name": "Office Expense"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef7"
+      },
+      "Name": "Clothing"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef8"
+      },
+      "Name": "Hoseholde"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef9"
+      },
+      "Name": "Liquor"
+    },
+    {
+      "attributes": {
+        "type": "Category__c",
+        "referenceId": "Category__cRef10"
+      },
+      "Name": "Enternaintment"
+    }
+  ]
+}
