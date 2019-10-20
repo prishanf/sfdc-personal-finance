@@ -1,0 +1,13 @@
+[
+  {
+    "sobject": "Account__c",
+    "saveRefs": true,
+    "files": ["account-data.json"]
+  },
+  {
+    "sobject": "Category__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["category-data.json"]
+  }
+]
