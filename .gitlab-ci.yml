@@ -25,7 +25,7 @@ before_script:
   # Output CLI version and plug-in information
   - sfdx --version
   - sfdx plugins --core
-  - sfdx plugins:install sfdx-wry-plugin
+  - sfdx plugins:install sfdx-wry-plugin -f
 stages:
   - code-testing
   - integration-testing
