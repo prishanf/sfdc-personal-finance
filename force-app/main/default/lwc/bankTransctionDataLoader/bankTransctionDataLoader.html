@@ -1,0 +1,31 @@
+<template>
+    <lightning-card title="Custom CSV File Uploader" icon-name="action:upload">
+            <div style="margin-left:4%">
+                <div class="slds-text-body_small slds-text-color_error">{fileName}
+                <div>
+                    <lightning-input label="" name="file uploader" onchange={handleFilesChange} type="file" multiple></lightning-input>
+                </div>
+                <template if:true={showLoadingSpinner}>
+                        <lightning-spinner alternative-text="Uploading......" size="medium"></lightning-spinner>
+                    </template>
+                </div>
+                <div>
+                    <lightning-button class="slds-m-top--medium" label={UploadFile} onclick={handleSave} variant="brand" disabled={isLoading}></lightning-button>
+                </div>
+            </div><br/>
+
+            <!-- Datatable to show the related files of the record -->
+             <template if:true={data}>
+                    <lightning-card title="Related Files of the record" icon-name="standard:event">
+                        <div style="width: auto;">
+                            <lightning-datatable
+                                    data={data}
+                                    columns={columns}
+                                    key-field="FITID"
+                            >
+                            </lightning-datatable>
+                        </div>
+                    </lightning-card>
+            </template>
+        </lightning-card>
+</template>
